@@ -1,7 +1,7 @@
 version : "3.3"
 services :
   web :
-     build : .
+     image : varpriya/django-todo-app-cicd:latest
      ports :
          - "8000:8000"
      volumes:
